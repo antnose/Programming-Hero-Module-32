@@ -138,3 +138,28 @@
 // type coercion
 // type conversion
 // type casting
+
+// 32-5 Block scope global scope simple understanding of Hoisting
+// function add(a, b) {
+//   console.log(a + b);
+//   if (a > b) {
+//     console.log(25 + a + b);
+//   }
+// }
+// add(5, 8);
+
+// print5();
+// print10();
+
+// for (var i = 0; i < 5; i++) {
+//   console.log(i);
+// }
+// console.log(`outside`, i);
+
+// function print5() {
+//   console.log("Inside print", 5);
+// }
+
+// const print10 = function () {
+//   console.log("inside print 10");
+// };
