@@ -163,3 +163,17 @@
 // const print10 = function () {
 //   console.log("inside print 10");
 // };
+
+// 32-6 (advanced) Closure, encapsulation, private variable
+
+// function kitchen() {
+//   let roast = 0;
+//   return () => {
+//     return ++roast;
+//   };
+// }
+
+// const firstServer = kitchen();
+// console.log(firstServer());
+// console.log(firstServer());
+// console.log(firstServer());
