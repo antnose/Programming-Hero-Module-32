@@ -209,3 +209,32 @@
 // greeting(greetNight, "Rasel");
 
 // document.getElementById()
+
+// 32-8 (advanced) function arguments pass by reference pass by value
+
+// function sum(a, b, c) {
+//   // console.log(arguments); // arguments is array like object
+//   const args = [...arguments];
+//   // console.log(args);
+//   return a + b + c;
+// }
+// console.log(sum(23, 45, 70, 89, 50, 58));
+// console.log(sum.length);
+
+// let num1 = 5;
+// let num2 = 8;
+// function muliply(a, b) {
+//   a = 23;
+//   return a * b;
+// }
+// console.log(muliply(num1, num2));
+
+// let student1 = { name: "Jalim", partner: "Borsha" };
+// let student2 = { name: "Raj", partner: "Kajol" };
+// function makeMovie(couple1, couple2) {
+//   couple1.name = "Ononto";
+//   couple2.partner = "Mim";
+// }
+// console.log(student1, student2);
+// makeMovie(student1, student2);
+// console.log(student1, student2);
