@@ -113,3 +113,28 @@
 // if (!x) {
 //   console.log("Nothing");
 // }
+
+// 32-4 Double Equal(==) Vs Triple Equal(===), implicit conversion
+
+// always use ===
+// equal comparison doesn't work for non-primitive
+
+// const first = 2;
+// const second = 2;
+// if (first == second) {
+//   console.log("Values are equal");
+// } else {
+//   console.log("Values are not equal");
+// }
+
+// const third = 2;
+// const fourth = "2";
+// if (third === fourth) {
+//   console.log("Values are equal");
+// } else {
+//   console.log("Values are not equal");
+// }
+
+// type coercion
+// type conversion
+// type casting
